@@ -1,0 +1,4 @@
+Kiszallitott Csomagok := COUNT ( Csomag[CsomagID] )
+
+Kiszallitott Csomagok YTD :=
+CALCULATE ( [Kiszallitott Csomagok], DATESYTD ( 'Datum'[Datum] ) )
